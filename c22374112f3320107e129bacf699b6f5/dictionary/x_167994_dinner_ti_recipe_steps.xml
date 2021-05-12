@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Recipe steps" max_length="40" name="x_167994_dinner_ti_recipe_steps" sizeclass="4" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Recipe" max_length="32" name="recipe" reference="x_167994_dinner_ti_recipe" type="reference"/>
+        <element label="Step description" max_length="5000" name="step_description" type="string"/>
+        <element label="Step number" max_length="40" name="step_number" type="integer"/>
+        <index name="index">
+            <element name="recipe"/>
+        </index>
+    </element>
+</database>

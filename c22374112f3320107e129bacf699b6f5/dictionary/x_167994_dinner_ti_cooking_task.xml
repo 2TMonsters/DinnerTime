@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Cooking task" max_length="40" name="x_167994_dinner_ti_cooking_task" type="collection">
+    <element label="Cooking task" max_length="40" name="x_167994_dinner_ti_cooking_task" sizeclass="6" type="collection">
         <element attributes="encode_utf8=false" label="Get Cooking Number" max_length="32" name="get_cooking_number" reference="x_167994_dinner_ti_get_cooking" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="encode_utf8=false" label="Recipe Name" max_length="32" name="recipe_name" reference="x_167994_dinner_ti_recipe" type="reference"/>
